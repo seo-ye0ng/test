@@ -1,0 +1,95 @@
+:root {
+  /* Font Family */
+  --primitive-font-family: Pretendard;
+
+  /* Font Weight */
+  --primitive-font-weight-light: 200;
+  --primitive-font-weight-regular: 400;
+  --primitive-font-weight-semibold: 600;
+
+  /* Color - Primary */
+  --primitive-color-primary-50: #FFEDE6;
+  --primitive-color-primary-100: #FFDBCA;
+  --primitive-color-primary-200: #FFB690;
+  --primitive-color-primary-300: #FF8D4B;
+  --primitive-color-primary-400: #EC6A06;
+  --primitive-color-primary-500: #C45600;
+  --primitive-color-primary-600: #9D4300;
+  --primitive-color-primary-700: #783200;
+  --primitive-color-primary-800: #552100;
+  --primitive-color-primary-900: #341100;
+
+  /* Color - Secondary */
+  --primitive-color-secondary-50: #E7F4F1;
+  --primitive-color-secondary-100: #CDE9E3;
+  --primitive-color-secondary-200: #9CD3C6;
+  --primitive-color-secondary-300: #6ABDAA;
+  --primitive-color-secondary-400: #39A78D;
+  --primitive-color-secondary-500: #079171;
+  --primitive-color-secondary-600: #06745A;
+  --primitive-color-secondary-700: #045744;
+  --primitive-color-secondary-800: #033A2D;
+  --primitive-color-secondary-900: #011D17;
+
+  /* Color - Neutral */
+  --primitive-color-neutral-50: #EEF0FF;
+  --primitive-color-neutral-100: #DAE2FD;
+  --primitive-color-neutral-200: #BEC6E0;
+  --primitive-color-neutral-300: #A3ABC4;
+  --primitive-color-neutral-400: #8990A8;
+  --primitive-color-neutral-500: #6F778E;
+  --primitive-color-neutral-600: #565E74;
+  --primitive-color-neutral-700: #3F465C;
+  --primitive-color-neutral-800: #283044;
+  --primitive-color-neutral-900: #131B2E;
+
+  /* Color - Black & White */
+  --primitive-color-black: #000000;
+  --primitive-color-white: #FFFFFF;
+
+  /* Spacing */
+  --primitive-spacing-4: 4px;
+  --primitive-spacing-6: 6px;
+  --primitive-spacing-8: 8px;
+  --primitive-spacing-12: 12px;
+  --primitive-spacing-16: 16px;
+  --primitive-spacing-20: 20px;
+  --primitive-spacing-24: 24px;
+  --primitive-spacing-28: 28px;
+  --primitive-spacing-32: 32px;
+  --primitive-spacing-36: 36px;
+  --primitive-spacing-40: 40px;
+  --primitive-spacing-60: 60px;
+  --primitive-spacing-80: 80px;
+  --primitive-spacing-120: 120px;
+
+  /* Border Radius */
+  --primitive-radius-2: 2px;
+  --primitive-radius-4: 4px;
+  --primitive-radius-8: 8px;
+  --primitive-radius-16: 16px;
+  --primitive-radius-20: 20px;
+  --primitive-radius-full: 100px;
+
+  /* Font Size */
+  --primitive-font-size-12: 12px;
+  --primitive-font-size-13: 13px;
+  --primitive-font-size-15: 15px;
+  --primitive-font-size-18: 18px;
+  --primitive-font-size-21: 21px;
+  --primitive-font-size-24: 24px;
+  --primitive-font-size-33: 33px;
+  --primitive-font-size-36: 36px;
+  --primitive-font-size-39: 39px;
+
+  /* Line Height */
+  --primitive-line-height-12: 18px;
+  --primitive-line-height-13: 19.5px;
+  --primitive-line-height-15: 22.5px;
+  --primitive-line-height-18: 27px;
+  --primitive-line-height-21: 31.5px;
+  --primitive-line-height-24: 36px;
+  --primitive-line-height-33: 49.5px;
+  --primitive-line-height-36: 54px;
+  --primitive-line-height-39: 58.5px;
+}

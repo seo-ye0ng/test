@@ -1,0 +1,52 @@
+:root {
+  /* Font */
+  --semantic-font-primary: var(--primitive-color-neutral-900);
+  --semantic-font-secondary: var(--primitive-color-neutral-700);
+  --semantic-font-tertiary: var(--primitive-color-neutral-400);
+  --semantic-font-inverse-primary: var(--primitive-color-neutral-50);
+  --semantic-font-inverse-secondary: var(--primitive-color-neutral-200);
+  --semantic-font-inverse-tertiary: var(--primitive-color-neutral-400);
+  --semantic-font-cta-primary: var(--primitive-color-primary-400);
+  --semantic-font-cta-secondary: var(--primitive-color-secondary-500);
+
+  /* Icon */
+  --semantic-icon-primary: var(--primitive-color-neutral-900);
+  --semantic-icon-secondary: var(--primitive-color-neutral-700);
+  --semantic-icon-tertiary: var(--primitive-color-neutral-400);
+  --semantic-icon-inverse-primary: var(--primitive-color-neutral-50);
+  --semantic-icon-inverse-secondary: var(--primitive-color-neutral-200);
+  --semantic-icon-inverse-tertiary: var(--primitive-color-neutral-400);
+  --semantic-icon-cta-primary: var(--primitive-color-primary-400);
+  --semantic-icon-cta-secondary: var(--primitive-color-secondary-500);
+
+  /* Outline */
+  --semantic-outline-light: var(--primitive-color-neutral-100);
+  --semantic-outline-medium: var(--primitive-color-neutral-200);
+
+  /* Button - Primary */
+  --semantic-btn-primary-default-fill: var(--primitive-color-primary-400);
+  --semantic-btn-primary-hover-fill: var(--primitive-color-primary-300);
+  --semantic-btn-primary-padding-top: var(--primitive-spacing-4);
+  --semantic-btn-primary-padding-bottom: var(--primitive-spacing-6);
+  --semantic-btn-primary-padding-left: var(--primitive-spacing-20);
+  --semantic-btn-primary-padding-right: var(--primitive-spacing-20);
+  --semantic-btn-primary-icon-gap: var(--primitive-spacing-4);
+
+  /* Button - Disabled */
+  --semantic-btn-disabled-fill: var(--primitive-color-neutral-50);
+  --semantic-btn-disabled-padding-top: var(--primitive-spacing-6);
+  --semantic-btn-disabled-padding-bottom: var(--primitive-spacing-6);
+  --semantic-btn-disabled-padding-left: var(--primitive-spacing-20);
+  --semantic-btn-disabled-padding-right: var(--primitive-spacing-20);
+  --semantic-btn-disabled-icon-gap: var(--primitive-spacing-4);
+
+  /* Button - Secondary */
+  --semantic-btn-secondary-default-fill: var(--primitive-color-white);
+  --semantic-btn-secondary-default-stroke: var(--primitive-color-primary-400);
+  --semantic-btn-secondary-hover-fill: var(--primitive-color-primary-50);
+  --semantic-btn-secondary-padding-top: var(--primitive-spacing-6);
+  --semantic-btn-secondary-padding-bottom: var(--primitive-spacing-6);
+  --semantic-btn-secondary-padding-left: var(--primitive-spacing-20);
+  --semantic-btn-secondary-padding-right: var(--primitive-spacing-20);
+  --semantic-btn-secondary-icon-gap: var(--primitive-spacing-4);
+}
