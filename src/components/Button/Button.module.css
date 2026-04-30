@@ -1,0 +1,66 @@
+.root {
+  appearance: none;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+
+  background: var(--semantic-btn-primary-default-fill);
+  border-radius: var(--semantic-btn-primary-border-radius);
+  padding-top: var(--semantic-btn-primary-padding-top);
+  padding-bottom: var(--semantic-btn-primary-padding-bottom);
+  padding-left: var(--semantic-btn-primary-padding-left);
+  padding-right: var(--semantic-btn-primary-padding-right);
+
+  font-family: var(--semantic-btn-primary-font-family);
+  font-size: var(--semantic-btn-primary-font-size);
+  font-weight: var(--semantic-btn-primary-font-weight);
+  line-height: var(--semantic-btn-primary-line-height);
+  color: var(--semantic-btn-primary-font-fill);
+}
+
+.root:hover:not(:disabled) {
+  background: var(--semantic-btn-primary-hover-fill);
+}
+
+.root:disabled {
+  cursor: not-allowed;
+  background: var(--semantic-btn-disabled-fill);
+  border-radius: var(--semantic-btn-disabled-border-radius);
+  padding-top: var(--semantic-btn-disabled-padding-top);
+  padding-bottom: var(--semantic-btn-disabled-padding-bottom);
+  padding-left: var(--semantic-btn-disabled-padding-left);
+  padding-right: var(--semantic-btn-disabled-padding-right);
+
+  font-family: var(--semantic-btn-disabled-font-family);
+  font-size: var(--semantic-btn-disabled-font-size);
+  font-weight: var(--semantic-btn-disabled-font-weight);
+  line-height: var(--semantic-btn-disabled-line-height);
+  color: var(--semantic-btn-disabled-font-fill);
+}
+
+.content {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--semantic-btn-primary-icon-gap);
+}
+
+.root:disabled .content {
+  gap: var(--semantic-btn-disabled-icon-gap);
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--semantic-btn-primary-icon-fill);
+}
+
+.root:disabled .icon {
+  color: var(--semantic-btn-disabled-icon-fill);
+}
+
