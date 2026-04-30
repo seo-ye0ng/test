@@ -36,6 +36,18 @@
 
 색상, 폰트, 간격, radius, shadow 등 디자인 토큰을 관리합니다.
 
+## CSS Token Import Order
+
+이 저장소의 CSS 토큰은 `primitives.css`와 `semantic.css`로 분리되어 있습니다.
+
+`semantic.css`는 내부에서 `var(--primitive-...)` 형태로 primitive token을 참조합니다.  
+따라서 두 파일을 함께 사용할 경우 반드시 `primitives.css`를 먼저 불러온 뒤 `semantic.css`를 불러와야 합니다.
+
+```css
+@import "./tokens/primitives.css";
+@import "./tokens/semantic.css";
+```
+
 ### components
 
 버튼, 인풋, 카드 등 UI 컴포넌트의 구조, 상태, 사용 규칙을 문서화합니다.
