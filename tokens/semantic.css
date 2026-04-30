@@ -24,15 +24,15 @@
   --semantic-outline-medium: var(--primitive-color-neutral-200);
 
   /* Button - Primary */
-  --semantic-btn-primary-default-fill: var(--primitive-color-primary-400);
-  --semantic-btn-primary-hover-fill: var(--primitive-color-primary-300);
+  --semantic-btn-primary-default-fill: var(--primitive-color-neutral-900);
+  --semantic-btn-primary-hover-fill: var(--primitive-color-neutral-700);
   --semantic-btn-primary-font-fill: var(--semantic-font-inverse-primary);
   --semantic-btn-primary-icon-fill: var(--semantic-icon-inverse-primary);
   --semantic-btn-primary-font-family: var(--primitive-font-family);
   --semantic-btn-primary-font-size: var(--primitive-font-size-18);
   --semantic-btn-primary-font-weight: var(--primitive-font-weight-semibold);
   --semantic-btn-primary-line-height: var(--primitive-line-height-18);
-  --semantic-btn-primary-border-radius: var(--primitive-radius-20);
+  --semantic-btn-primary-border-radius: var(--primitive-radius-8);
   --semantic-btn-primary-padding-top: var(--primitive-spacing-4);
   --semantic-btn-primary-padding-bottom: var(--primitive-spacing-6);
   --semantic-btn-primary-padding-left: var(--primitive-spacing-20);
