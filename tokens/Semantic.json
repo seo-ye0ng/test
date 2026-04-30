@@ -1190,6 +1190,23 @@
           },
           "com.figma.isOverride": true
         }
+      },
+      "BR20": {
+        "$type": "number",
+        "$value": 20,
+        "$extensions": {
+          "com.figma.variableId": "VariableID:46:61",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:eadb005e2ceb9d43d1705f6d9c98474331fb64cd/-1:-1",
+            "targetVariableName": "Radius/20",
+            "targetVariableSetId": "VariableCollectionId:1e2265c2748155041b72a32b0abc3f4d3b4e01d5/-1:-1",
+            "targetVariableSetName": "Permitives"
+          },
+          "com.figma.isOverride": true
+        }
       }
     }
   },
