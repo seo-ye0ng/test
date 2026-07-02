@@ -543,7 +543,7 @@
         "$value": "{Radius.4}"
       }
     },
-    "breadcrumb": {
+    "Breadcrumb": {
       "icon": {
         "12": {
           "$type": "sizing",
@@ -553,14 +553,20 @@
           "$type": "sizing",
           "$value": "{Sizing.16}"
         }
-      }
-    },
-    "Breadcrumb": {
+      },
       "Spacing": {
         "8": {
           "$type": "spacing",
           "$value": "{Spacing.8}"
         }
+      },
+      "Default": {
+        "$type": "typography",
+        "$value": "{Caption1.Regular}"
+      },
+      "Active": {
+        "$type": "typography",
+        "$value": "{Caption1.Regular}"
       },
       "Text": {
         "Default": {
@@ -723,16 +729,6 @@
           "$type": "color",
           "$value": "{Text.Light.Secondary}"
         }
-      }
-    },
-    "BreadCrumb": {
-      "Default": {
-        "$type": "typography",
-        "$value": "{Caption1.Regular}"
-      },
-      "Active": {
-        "$type": "typography",
-        "$value": "{Caption1.Regular}"
       }
     },
     "Input": {
@@ -979,7 +975,7 @@
         }
       },
       "Icon": {
-        "Deafult": {
+        "Default": {
           "$type": "color",
           "$value": "{Icon.Light.Secondary}"
         },
